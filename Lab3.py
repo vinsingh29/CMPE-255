@@ -48,7 +48,7 @@ def train_then_build_model(data_labels, features_nd,data):
     
     log_model = log_model.fit(X=X_train, y=y_train)
     y_pred = log_model.predict(X_test)
-    print("Prediction for 10 tweet:",y_pred[9])
+    print("Prediction for 10th tweet:",y_pred[9])
     
   
     
